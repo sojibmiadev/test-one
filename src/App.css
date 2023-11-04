@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+.bg-img {
+  position: relative;
+  background: linear-gradient(rgba(8, 8, 8, 0.3), rgba(8, 8, 8, 0.3)),
+    url(https://media.istockphoto.com/id/1442729474/photo/hands-of-women-eating-at-a-girls-association.jpg?s=1024x1024&w=is&k=20&c=xdZIeRVc9ECtz-rkDct9kw2iVYwm59SG9tQcIri6Sqo=);
+  min-height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.text-content {
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.header-title {
+  text-transform: uppercase;
+  color: #ffff;
+  font-size: 60px;
+  letter-spacing: 16px;
+  margin-bottom: 30px;
+}
+
+.search-box {
+  margin-top: 30px !important;
+}
+
+.input-header {
+  margin: 20px 0 !important;
+}
+
+.detailsPage {
+  margin-top: 30px !important;
+}
